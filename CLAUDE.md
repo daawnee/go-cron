@@ -4,9 +4,11 @@ Guidance for working in this repository.
 
 ## What this is
 
-A Go library (`module github.com/daawnee/cron`, Go 1.26.3) that parses cron expressions and fires a
-callback when a schedule is due. Single flat package `cron` — no `cmd/`,
-`internal/`, or external dependencies (stdlib only).
+A Go library (`module github.com/daawnee/go-cron`, Go 1.26.3) that parses cron
+expressions and fires a callback when a schedule is due. Single flat package
+`cron` — the repository is named `go-cron` to leave the plain name free for
+other languages, but the import identifier is `cron`. No `cmd/`, `internal/`, or
+external dependencies (stdlib only).
 
 ## Layout
 

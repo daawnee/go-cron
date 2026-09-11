@@ -61,11 +61,11 @@ The time zone has to be defined according to the [IANA Time Zone](https://en.wik
 ## Installation
 
 ```sh
-go get github.com/daawnee/cron
+go get github.com/daawnee/go-cron
 ```
 
 ```go
-import "github.com/daawnee/cron"
+import "github.com/daawnee/go-cron"
 ```
 
 The package has no dependencies beyond the standard library.
